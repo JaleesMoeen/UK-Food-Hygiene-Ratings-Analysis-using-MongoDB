@@ -147,6 +147,12 @@ Convert the result ( establishments have a hygiene score equal to 20 ) to a Pand
 ![Alt text](Images/16_hygeine_results_df.png)
 
 
+Get summary counts of unique values in the "BusinessType" column for  establishments with a hygiene score of 20.
+
+
+![Alt text](Images/25_summary_hygiene_20.png)
+
+
 
 Which establishments in London have a RatingValue greater than or equal to 4?
 
@@ -160,6 +166,11 @@ Convert the result ( establishments in London have a RatingValue greater than or
 
 ![Alt text](Images/18_rating_value_results_df.png)
 
+
+Get summary counts of unique values in the "BusinessType" column for  establishments in London as the Local Authority and RatingValue >= 4.
+
+
+![Alt text](Images/26_london_summary.png)
 
 
 What are the top 5 establishments with a RatingValue of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours"?
@@ -200,26 +211,37 @@ Convert the result ( establishments in each Local Authority area have a hygiene 
 
 ### 7 Observation Analysis
 
--  The total number of documents with a hygiene score of 20 is  41. The first restaurant name is 'The Chase Rest Home' and it's busienss type is 'caring premises'. 
+1  The total number of documents with a hygiene score of 20 is  41. The most high number of establishments are these three types, and rest is not have a significant numebrs. 
 
-- The total number of establishments with London as the Local Authority and 'RatingValue' >= 4 is  33. The first name comes is 'Charlie's' i.e. and it's busienss type is 'other catering premises'.
+- Restaurant/Cafe/Canteen              14
+
+- Takeaway/sandwich shop               11
+
+- Retailers - other                     9
 
 
-- Here is the top 5 establishments with a RatingValue rating value of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours".
 
-1  'BusinessName': 'Volunteer',     'BusinessType': 'Pub/bar/nightclub',
+2  The total number of establishments with London as the Local Authority and 'RatingValue' >= 4 is  33. The most highest category is 'Other catering premises' as 24.
 
-2  'BusinessName': 'Atlantic Fish Bar',    'BusinessType': 'Takeaway/sandwich shop',
 
-3  'BusinessName': 'Iceland',  'BusinessType': 'Retailers - supermarkets/hypermarkets',
+3  Here is the top 5 establishments with a RatingValue rating value of 5, sorted by lowest hygiene score, nearest to the new restaurant added, "Penang Flavours".
 
-4  'BusinessName': 'TIWA N TIWA African Restaurant Ltd',   'BusinessType': 'Restaurant/Cafe/Canteen',
 
-5  'BusinessName': 'Howe and Co Fish and Chips - Van 17',   'BusinessType': 'Mobile caterer',
+- 'BusinessName': 'Volunteer',     'BusinessType': 'Pub/bar/nightclub',
 
-- Number of establishments with a hygiene score of 0:  55
+- 'BusinessName': 'Atlantic Fish Bar',    'BusinessType': 'Takeaway/sandwich shop',
 
-- We extracted the top ten best Establishments for our News letter are here:
+- 'BusinessName': 'Iceland',  'BusinessType': 'Retailers - supermarkets/hypermarkets',
+
+- 'BusinessName': 'TIWA N TIWA African Restaurant Ltd',   'BusinessType': 'Restaurant/Cafe/Canteen',
+
+- 'BusinessName': 'Howe and Co Fish and Chips - Van 17',   'BusinessType': 'Mobile caterer',
+
+
+
+4 Number of establishments with a hygiene score of 0:  55
+
+5 We extracted the top ten best Establishments for our News letter are here:
 
 
 ![Alt text](Images/23_Top_ten_best_zero_hygiene.png)
