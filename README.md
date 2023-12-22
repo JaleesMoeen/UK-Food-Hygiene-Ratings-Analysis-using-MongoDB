@@ -7,18 +7,22 @@
 
 Hey, let's explore the "uk_food" as NoSQL database with  PyMongo and Pretty Print and  analyze the data using Pandas Python library.
 
-![Alt text](Images/1_monogdb_pandas.jpg)
+
+![Alt text](Images/food_hygeine.png)
 
 
 ### 1 Introduction 
 
-This web scraping and analysis consists of three parts.
+This exploratory analysis from database consists of three parts.
 
 Part 1: Setup jupyter notebook and database.
 
 Part 2: Update the 'uk_food' Database.
 
 Part 3: Exploratory Analysis
+
+
+![Alt text](Images/1_monogdb_pandas.jpg)
 
 
 ### 2 Prerequisites
